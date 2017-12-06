@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên sách"
+        android:id="@+id/tv2Tensach"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv2Tensach"
+
+        android:id="@+id/tv2tacgia"
+        android:text="Tac gia"
+        android:textColor="@color/colorPrimary"/>
+    "
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2tt"
+        android:text="Trạng thái"
+        android:layout_below="@+id/tv2tacgia"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hết hạn"
+        android:id="@+id/tv2han"
+        android:textSize="22dp"
+        android:layout_below="@+id/tv2tt"
+        />
+
+
+</RelativeLayout>

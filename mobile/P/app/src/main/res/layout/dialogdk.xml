@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26dc3e"
+    android:padding="20dp">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:text="Đăng Ký Mượn Sách"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/editmaSachMuon"
+        android:hint="Mã Sách mượn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editngaymuon"
+        android:hint="Ngày đến mượn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="Đăng Ký"
+        android:layout_weight="5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="18dp"
+        android:id="@+id/btthemnv"
+        android:onClick="InsertNV"/>
+    <Button
+        android:text="Hủy"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="18dp"
+        android:id="@+id/bthuy"
+       />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên sách"
+        android:id="@+id/tvTensach"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvTensach"
+
+        android:id="@+id/tvtacgia"
+        android:text="Tac gia"
+        android:textColor="@color/colorPrimary"/>
+    "
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNhaXB"
+        android:text="Nhà XB"
+        android:layout_below="@+id/tvTensach"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGiaTien"
+        android:text="Giá tiền"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:layout_below="@+id/tvtacgia"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:id="@+id/tvslsach"
+        android:layout_below="@+id/tvtacgia"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng còn"
+        android:id="@+id/tvslsachcon"
+        android:layout_below="@+id/tvslsach"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày nhập"
+        android:id="@+id/tvngaynhap"
+        android:layout_below="@+id/tvslsach"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã Sách"
+        android:id="@+id/tvmasach"
+        android:textSize="22dp"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
